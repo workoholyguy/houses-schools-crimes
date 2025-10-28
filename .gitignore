@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+node_modules/
+dist/
+build/
+data/
+datasets/
+*.csv
+*.parquet
+*.zip
+.DS_Store
+*.log
+master_datasets/
+master_datasets
+I. FUNDAMENTALS OF DS/CLEAN PROJECT COMPRESSED/master_datasets/
+*.shp
+*.dbf
+*.shx
+*.cpg
+*.prj
