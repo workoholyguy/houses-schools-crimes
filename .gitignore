@@ -1,3 +1,4 @@
+# existing rules
 .venv/
 __pycache__/
 .ipynb_checkpoints/
@@ -6,12 +7,17 @@ dist/
 build/
 data/
 datasets/
-*.csv
+*.log
 *.parquet
 *.zip
+*.csv
 .DS_Store
-*.log
-master_datasets/crime_datasets/*
-master_datasets/housing_datasets/*
-master_datasets/ml_datasets/*
-master_datasets/school_datasets/*
+
+# ignore all datasets by default
+master_datasets/**
+
+# re-include (unignore) specific LFS-tracked files
+!master_datasets/**/*.shp
+!master_datasets/**/*.zip
+!master_datasets/**/*.csv
+!master_datasets/**/*.parquet
