@@ -5,19 +5,4 @@ __pycache__/
 node_modules/
 dist/
 build/
-data/
-datasets/
-*.log
-*.parquet
-*.zip
-*.csv
 .DS_Store
-
-# ignore all datasets by default
-master_datasets/**
-
-# re-include (unignore) specific LFS-tracked files
-!master_datasets/**/*.shp
-!master_datasets/**/*.zip
-!master_datasets/**/*.csv
-!master_datasets/**/*.parquet
