@@ -11,7 +11,7 @@ datasets/
 *.zip
 .DS_Store
 *.log
-master_datasets/crime_datasets
-master_datasets/housing_datasets
-master_datasets/ml_datasets
-master_datasets/school_datasets
+master_datasets/crime_datasets/*
+master_datasets/housing_datasets/*
+master_datasets/ml_datasets/*
+master_datasets/school_datasets/*
